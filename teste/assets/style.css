@@ -1,9 +1,16 @@
 body {
-    color: #1e1b1a;
+    color: #ffffff;
     font-family: "Roboto Mono", consolas, monospace;
-    font-size: 1.4rem;
-    font-weight: 400;
-    letter-spacing: 0.1rem;
+    background: url(./svg/Vector\ 58.svg);
+}
+
+/* Logo */
+.logo{
+    position: absolute;
+    left: 9.17%;
+    right: 85.62%;
+    top: 0.58%;
+    bottom: 97.67%;
 }
 
 /*cabecalhos*/
@@ -19,37 +26,6 @@ h1{
 
 /*primeiro bloco*/
 
-.title-home{
-    color: #dedfe1;
-}
-.title-2{
-    font-size: 3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 38px;
-    color: #dedfe1;
-    margin: 20px 0px 0px 0px !important;
-} 
-.title-3{
-    font-size: 3rem;
-    font-family: "WishfulWaves";
-    color: #dedfe1;
-}
-
-.box{
-    padding: 30px;
-}
-
-.sobre {
-    color: #dedfe1;
-    width: 100%;
-    background: black;
-    display: flex;
-    flex-flow: row;
-
-    align-items: center;
-}
-
 .justify{
     text-align: justify;
  }
@@ -64,25 +40,292 @@ nav {
 nav a {
     font-weight: 600;
     line-height: 24px;
-    color: var(--black);
+    color: #E4D9D9;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 6.33px;
     padding-left: 66px;
 }
 
+/* Vector 58 */
 
 
 
 
+/* primeira section */
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 767px;
+    height: 384px;
+    left: 40px;
+    top: 155px;
+}
+
+/* primeiro titulo */
+
+.title-2{
+    position: static;
+    width: 767px;
+    height: 164px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: "Rust";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 137.4%;
+    /* or 82px */
+    
+    
+    color: #E4D9D9;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.title-3{
+        position: static;
+        width: 767px;
+        height: 164px;
+        left: 0px;
+        top: 0px;
+        
+        font-family: "Rust";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 137.4%;
+        /* or 82px */
+        
+        
+        color: #E4D9D9;
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 0px;
+}
 
 
+/* body text */
+
+.box{
+    position: static;
+    width: 595px;
+    height: 80px;
+    left: 0px;
+    top: 204px;
+    
+    font-family: Gilroy-Regular;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    
+    
+    color: #E4D9D9;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.disco{
+    position: absolute;
+    width: 595px;
+    height: 549px; 
+    left: 700px;
+    top: 90px;
+
+    background: url(.png);
+}
+    
+/* <!--page-contato--> */
+
+/* Rectangle 1 */
 
 
+form{
+    position: absolute;
+    width: 446px;
+    height: 606px;
+    left: 654px;
+    top: 200px;
+    
+    background: radial-gradient(91.5% 91.5% at 8.52% 8.5%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.48) 100%);
+    backdrop-filter: blur(20px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 33.6842px;
+}
+
+input{
+    color: #000000;
+}
+.tituloform{
+    /* Joy is yet to begin */
+    position: absolute;
+    width: 376px;
+    height: 54px;
+    left: 35px;
+    top: 20px;
+
+    font-family: "Roboto Mono", consolas, monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#nome{
+    position: absolute;
+    width: 376px;
+    height: 54px;
+    left: 30px;
+    top: 90px;
+
+    background: #E3E2E2;
+    mix-blend-mode: overlay;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
 
 
+    color: #000000;
+}
+
+.textnome{
+    position: absolute;
+    width: 79px;
+    height: 23px;
+    left: 35px;
+    top: 70px;
+
+    font-family: "Roboto Mono", consolas, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
 
 
+    color: #000000;
+}
+
+#email{
+    position: absolute;
+    width: 376px;
+    height: 54px;
+    left: 30px;
+    top: 200px;
+
+    background: #E3E2E2;
+    mix-blend-mode: overlay;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
 
 
+    color: #000000;
+}
+.textemail{
+    position: absolute;
+    width: 79px;
+    height: 23px;
+    left: 35px;
+    top: 180px;
 
+    font-family: "Roboto Mono", consolas, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+#assunto{
+    position: absolute;
+    width: 376px;
+    height: 54px;
+    left: 30px;
+    top: 300px;
+
+    background: #E3E2E2;
+    mix-blend-mode: overlay;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+ 
+}
+
+.textassunto{
+    position: absolute;
+    width: 79px;
+    height: 23px;
+    left: 35px;
+    top: 280px;
+
+    font-family: "Roboto Mono", consolas, monospace;
+    font-style:normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+button {
+    position: absolute;
+    width: 376px;
+    height: 49px;
+    left: 35px;
+    top: 400px;
+
+    font-family: "Roboto Mono", consolas, monospace;
+    background:linear-gradient(90deg, rgba(255, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+    
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+ 
+.riricontact{
+    position: absolute;
+    width: 506px;
+    height: 778.17px;
+
+    background: url(.png);
+} 
