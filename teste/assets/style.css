@@ -1,0 +1,88 @@
+body {
+    color: #1e1b1a;
+    font-family: "Roboto Mono", consolas, monospace;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+/*cabecalhos*/
+h1{
+    font-family: "DIN", tahoma, sans-serif;
+    color: #000000;
+    font-size: 2.8rem;
+    letter-spacing: 0.075em;
+    line-height: 1.45;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*primeiro bloco*/
+
+.title-home{
+    color: #dedfe1;
+}
+.title-2{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 38px;
+    color: #dedfe1;
+    margin: 20px 0px 0px 0px !important;
+} 
+.title-3{
+    font-size: 3rem;
+    font-family: "WishfulWaves";
+    color: #dedfe1;
+}
+
+.box{
+    padding: 30px;
+}
+
+.sobre {
+    color: #dedfe1;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-flow: row;
+
+    align-items: center;
+}
+
+.justify{
+    text-align: justify;
+ }
+
+/*menu*/
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 60px 119px 0 0;
+}
+
+nav a {
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--black);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 6.33px;
+    padding-left: 66px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
