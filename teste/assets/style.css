@@ -199,7 +199,7 @@ input{
     width: 376px;
     height: 54px;
     left: 30px;
-    top: 90px;
+    top: 140px;
 
     background: #E3E2E2;
     mix-blend-mode: overlay;
@@ -219,7 +219,7 @@ input{
     width: 79px;
     height: 23px;
     left: 35px;
-    top: 70px;
+    top: 120px;
 
     font-family: "Roboto Mono", consolas, monospace;
     font-style: normal;
@@ -237,7 +237,7 @@ input{
     width: 376px;
     height: 54px;
     left: 30px;
-    top: 200px;
+    top: 260px;
 
     background: #E3E2E2;
     mix-blend-mode: overlay;
@@ -256,7 +256,7 @@ input{
     width: 79px;
     height: 23px;
     left: 35px;
-    top: 180px;
+    top: 240px;
 
     font-family: "Roboto Mono", consolas, monospace;
     font-style: normal;
@@ -274,7 +274,7 @@ input{
     width: 376px;
     height: 54px;
     left: 30px;
-    top: 300px;
+    top: 380px;
 
     background: #E3E2E2;
     mix-blend-mode: overlay;
@@ -294,7 +294,7 @@ input{
     width: 79px;
     height: 23px;
     left: 35px;
-    top: 280px;
+    top: 360px;
 
     font-family: "Roboto Mono", consolas, monospace;
     font-style:normal;
@@ -312,7 +312,7 @@ button {
     width: 376px;
     height: 49px;
     left: 35px;
-    top: 400px;
+    top: 500px;
 
     font-family: "Roboto Mono", consolas, monospace;
     background:linear-gradient(90deg, rgba(255, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
@@ -329,3 +329,30 @@ button {
 
     background: url(.png);
 } 
+
+.validaNome{
+    position: absolute;
+    font-size: 12px;
+    width: 394px;
+    height: 30px;
+    left: 35px;
+    top: 200px;
+}
+
+.validaEmail{
+    position: absolute;
+    font-size: 12px;
+    width: 394px;
+    height: 30px;
+    left: 35px;
+    top: 325px;
+}
+
+.validaAssunto{
+    position: absolute;
+    font-size: 12px;
+    width: 394px;
+    height: 30px;
+    left: 35px;
+    top: 465px;
+}
